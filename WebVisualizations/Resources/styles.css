@@ -1,3 +1,11 @@
 body{
-    background-color: gray;
+    background-color:lightgrey;
+    text-align: left;
+
+  }
+
+img {
+    float: left;
+    max-width: 50%;
+    /* height: auto; */
   }
