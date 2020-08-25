@@ -1,3 +1,23 @@
 body{
-    background-color: gray;
+    background-color:lightgrey;
+    text-align: left;
+
+  }
+
+img {
+    float: left;
+    max-width: 50%;
+    /* height: auto; */
+  }
+
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #020202;
+    color: white;
   }
