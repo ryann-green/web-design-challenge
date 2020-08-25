@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Landing Page</title>
+    <title>Comparisons</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
@@ -15,7 +15,6 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
@@ -39,68 +38,46 @@
             </ul>
         </div>
     </nav>
-    <br><br>
+    <br>
+    <br>
 
     <div class="container">
-        <div class="row" margin=auto;>
-            <div class="col-lg-8">
-                <div class="card">
-                    <div class="card-body">
-                        <h2>Summary: Latitude vs. X</h2>
-
-
-                        <p>
-                            <a href="default.asp">
-                                <img src="assets/images/Fig1.png" class="rounded float-left">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Comparison: Latitude vs X</h5>
+                <p class="card-text">Click any plot to get an in-depth analysis.</p>
+                <!-- <div class="container"> -->
+                    <!-- <div class="row"> -->
+                        <div class="col-sm-12">
+                            <a href="temp.html">
+                                <img src="assets/images/Fig1.png" class="rounded float-left" alt="Responsive image" >
                             </a>
-                        <p>The purpose of this project was to analyze how weather changes as you get closer to the
-                            equator.
-                            To accomplish this analysis, we first pulled data from the open WeatherMap API to assemble a
-                            dataset over 500 cities</p>
+                        </div>
+                        <div class="col-sm-12">
+                            <a href="humidity.html">
+                                <img src="assets/images/Fig2.png" class="rounded float-left" alt="Responsive image">
+                            </a>
+                        </div>
 
-                        <p>After assembling the dataset, we used matplotlib to plot various aspects of the weather vs
-                            latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.
-                            This site provides the source data and visualizations created as part of the analysis, as
-                            well
-                            as explanations and descriptions of any trends and correltations witnessed.</p>
+                    <!-- </div>
+                    <div class="row">
+                        <div class="col-lg-6"> -->
 
-                        </p>
-
-                    </div>
-                </div>
+                            <a href="cloud.html">
+                                <img src="assets/images/Fig3.png" class="rounded float-left" alt="Responsive image">
+                            </a>
+                        <!-- </div>
+                        <div class="col-lg-6"> -->
+                            <a href="wind.html">
+                                <img src="assets/images/Fig4.png" class="rounded float-left" alt="Responsive image">
+                            </a>
+                        <!-- </div>
+                    </div> -->
+                <!-- </div> -->
             </div>
-
-            <div class="col-lg-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h3>Visualizations</h3>
-
-                        <a href="temp.html">
-                            <img src="assets/images/Fig1.png" class="rounded float-left" alt="Responsive image"
-                                style="width:100%">
-                        </a>
-
-                        <a href="humidity.html">
-                            <img src="assets/images/Fig2.png" class="rounded float-left" alt="Responsive image">
-                        </a>
-
-                        <a href="cloud.html">
-                            <img src="assets/images/Fig3.png" class="rounded float-left" alt="Responsive image">
-                        </a>
-
-                        <a href="wind.html">
-                            <img src="assets/images/Fig4.png" class="rounded float-left" alt="Responsive image">
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-
-
-
         </div>
-    </div>
 
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -111,8 +88,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
-
 
 </body>
 
